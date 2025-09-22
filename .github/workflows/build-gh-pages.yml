@@ -34,13 +34,6 @@ jobs:
           token: ${{ secrets.GHE_PAT }}
           github-server-url: https://github.tools.sap
           ref: 'main'
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./
-          destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
 
