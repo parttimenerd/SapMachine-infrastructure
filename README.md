@@ -1,13 +1,11 @@
-# SapMachine Infrastructure
+# sapmachine.io deployment process
 
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP/SapMachine-infrastructure)](https://api.reuse.software/info/github.com/SAP/SapMachine-infrastructure)
+![Deployment Diagram](./sapmachineIOPage_deployment.svg)
 
-## Description
-
-This repository contains auxiliary data for the [SapMachine project](https://github.com/SAP/SapMachine).
-
-Currently these are merely the docker files.
-
-## License
-
-Copyright 2017-2025 SAP SE or an SAP affiliate company and SapMachine-infrastructure contributors. Please see our [LICENSE](LICENSE) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP/SapMachine-infrastructure).
+# Links
+| Repository                                                                                 | Github Pages                                                                 |
+|--------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
+| [SapMachineIOPage](https://github.tools.sap/SapMachine/SapMachineIOPage)                   | [Link](https://pages.github.tools.sap/SapMachine/SapMachineIOPage/)          |
+| [SapMachineIOPagePRPreview](https://github.tools.sap/SapMachine/SapMachineIOPagePRPreview) | [Link](https://pages.github.tools.sap/SapMachine/SapMachineIOPagePRPreview/) |
+| [SapMachine](https://github.com/SAP/SapMachine)                                            | [Link](https://sap.github.io/SapMachine/)                                    |
+| [SapMachine-Infrastructure](https://github.com/SAP/SapMachine-infrastructure)              | [Link](https://sapmachine.io/)                                               |

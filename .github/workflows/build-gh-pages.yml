@@ -27,13 +27,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo from GitHub Tools SAP
-        uses: actions/checkout@v5
-        with:
-          repository: SapMachine/SapMachineIOPage
-          token: ${{ secrets.GHE_PAT }}
-          github-server-url: https://github.tools.sap
-          ref: 'main'
+      - name: Setup Maven Action
+        uses: s4u/setup-maven-action@v1.18.0
       - name: ls
         run: pwd
       - name: Setup Pages
