@@ -34,6 +34,8 @@ jobs:
           token: ${{ secrets.GHE_PAT }}
           github-server-url: https://github.tools.sap
           ref: 'main'
+      - name: Setup Maven Action
+        uses: s4u/setup-maven-action@v1.18.0
       - name: ls
         run: ls .* *
       - name: Setup Pages
